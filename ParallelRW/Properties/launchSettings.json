@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ParallelRW": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
