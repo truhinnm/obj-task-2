@@ -4,8 +4,9 @@
 
 В Program.cs написан тест на 100 читателей и 10 писателей. Сам "сервер" в StaticServer.cs
 
-сборка: docker build -t parallelrw .
-запуск: docker run parallelrw
+сборка: `docker build -t parallelrw .`
+
+запуск: `docker run parallelrw`
 
 Из недостатков - если потоков-читателей много, то писатель может долго ждать своей очереди на запись
 
